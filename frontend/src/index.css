@@ -1,0 +1,290 @@
+@import "tailwindcss";
+@import "daisyui/dist/full.css";
+
+/* Light Theme */
+[data-theme="light"] {
+  --primary: #570df8;
+  --secondary: #f87272;
+  --accent: #ff80b5;
+  --neutral: #e5e7eb;
+  --bg: #ffffff;
+}
+
+/* Dark Theme */
+[data-theme="dark"] {
+  --primary: #1e293b;
+  --secondary: #9333ea;
+  --accent: #ff79c6;
+  --neutral: #334155;
+  --bg: #0f172a;
+}
+
+/* Cupcake Theme */
+[data-theme="cupcake"] {
+  --primary: #ff80b5;
+  --secondary: #ffb1df;
+  --accent: #ff80b5;
+  --neutral: #fcd3e1;
+  --bg: #fff7fc;
+}
+
+/* Bumblebee Theme */
+[data-theme="bumblebee"] {
+  --primary: #facc15;
+  --secondary: #fbbf24;
+  --accent: #f59e0b;
+  --neutral: #d1d5db;
+  --bg: #fef3c7;
+}
+
+/* Emerald Theme */
+[data-theme="emerald"] {
+  --primary: #10b981;
+  --secondary: #34d399;
+  --accent: #059669;
+  --neutral: #d1fae5;
+  --bg: #ecfdf5;
+}
+
+/* Corporate Theme */
+[data-theme="corporate"] {
+  --primary: #2563eb;
+  --secondary: #2563eb;
+  --accent: #ffb92b;
+  --neutral: #f3f4f6;
+  --bg: #ffffff;
+}
+
+/* Synthwave Theme */
+[data-theme="synthwave"] {
+  --primary: #f72585;
+  --secondary: #7209b7;
+  --accent: #ff0077;
+  --neutral: #0f3460;
+  --bg: #1a1a2e;
+}
+
+/* Retro Theme */
+[data-theme="retro"] {
+  --primary: #ffcd00;
+  --secondary: #e53e3e;
+  --accent: #0ea5e9;
+  --neutral: #fffafa;
+  --bg: #fefce8;
+}
+
+/* Cyberpunk Theme */
+[data-theme="cyberpunk"] {
+  --primary: #ff0077;
+  --secondary: #00ffee;
+  --accent: #ff44aa;
+  --neutral: #000000;
+  --bg: #ff44aa;
+}
+
+/* Valentine Theme */
+[data-theme="valentine"] {
+  --primary: #ff0000;
+  --secondary: #ff4b5c;
+  --accent: #ff6b6b;
+  --neutral: #f7e1e1;
+  --bg: #ffe4e4;
+}
+
+/* Halloween Theme */
+[data-theme="halloween"] {
+  --primary: #ff6a13;
+  --secondary: #d93800;
+  --accent: #ff6700;
+  --neutral: #2d2d2d;
+  --bg: #000000;
+}
+
+/* Garden Theme */
+[data-theme="garden"] {
+  --primary: #2b6f20;
+  --secondary: #34d399;
+  --accent: #16a34a;
+  --neutral: #a7f3d0;
+  --bg: #f0fdf4;
+}
+
+/* Forest Theme */
+[data-theme="forest"] {
+  --primary: #0f9d58;
+  --secondary: #4caf50;
+  --accent: #2c6e49;
+  --neutral: #263238;
+  --bg: #ffffff;
+}
+
+/* Aqua Theme */
+[data-theme="aqua"] {
+  --primary: #00bcd4;
+  --secondary: #8bc34a;
+  --accent: #80deea;
+  --neutral: #e1f5fe;
+  --bg: #ffffff;
+}
+
+/* Lofi Theme */
+[data-theme="lofi"] {
+  --primary: #0a0a0a;
+  --secondary: #1c1c1c;
+  --accent: #333333;
+  --neutral: #d1d5db;
+  --bg: #ffffff;
+}
+
+/* Pastel Theme */
+[data-theme="pastel"] {
+  --primary: #c084fc;
+  --secondary: #f472b6;
+  --accent: #7c3aed;
+  --neutral: #f3e8ff;
+  --bg: #f8f9fa;
+}
+
+/* Fantasy Theme */
+[data-theme="fantasy"] {
+  --primary: #ff8c00;
+  --secondary: #ff47b7;
+  --accent: #e60049;
+  --neutral: #f1e0d6;
+  --bg: #fff5e1;
+}
+
+/* Wireframe Theme */
+[data-theme="wireframe"] {
+  --primary: #333333;
+  --secondary: #f2f2f2;
+  --accent: #fbbf24;
+  --neutral: #e5e5e5;
+  --bg: #ffffff;
+}
+
+/* Black Theme */
+[data-theme="black"] {
+  --primary: #1e1e1e;
+  --secondary: #484848;
+  --accent: #1f2937;
+  --neutral: #000000;
+  --bg: #1a1a1a;
+}
+
+/* Luxury Theme */
+[data-theme="luxury"] {
+  --primary: #ffd700;
+  --secondary: #ff8c00;
+  --accent: #fffaf0;
+  --neutral: #d4af37;
+  --bg: #ffffff;
+}
+
+/* Dracula Theme */
+[data-theme="dracula"] {
+  --primary: #ff79c6;
+  --secondary: #50fa7b;
+  --accent: #ff5555;
+  --neutral: #282a36;
+  --bg: #44475a;
+}
+
+/* CMYK Theme */
+[data-theme="cmyk"] {
+  --primary: #ff006e;
+  --secondary: #2f8ed3;
+  --accent: #94ff80;
+  --neutral: #d1d5db;
+  --bg: #d1d5db;
+}
+
+/* Autumn Theme */
+[data-theme="autumn"] {
+  --primary: #d97706;
+  --secondary: #d97706;
+  --accent: #b45309;
+  --neutral: #fef2f2;
+  --bg: #ffedd5;
+}
+
+/* Business Theme */
+[data-theme="business"] {
+  --primary: #1d4ed8;
+  --secondary: #ef4444;
+  --accent: #0ea5e9;
+  --neutral: #f3f4f6;
+  --bg: #ffffff;
+}
+
+/* Acid Theme */
+[data-theme="acid"] {
+  --primary: #84cc16;
+  --secondary: #10b981;
+  --accent: #f59e0b;
+  --neutral: #3b82f6;
+  --bg: #000000;
+}
+
+/* Lemonade Theme */
+[data-theme="lemonade"] {
+  --primary: #ffeb3b;
+  --secondary: #ff9800;
+  --accent: #fff9c4;
+  --neutral: #fbc02d;
+  --bg: #fff7fc;
+}
+
+/* Night Theme */
+[data-theme="night"] {
+  --primary: #343a40;
+  --secondary: #6c757d;
+  --accent: #495057;
+  --neutral: #212529;
+  --bg: #1e2023;
+}
+
+/* Coffee Theme */
+[data-theme="coffee"] {
+  --primary: #6f4f37;
+  --secondary: #d2691e;
+  --accent: #c78b4a;
+  --neutral: #f8f1e5;
+  --bg: #f8f1e5;
+}
+
+/* Winter Theme */
+[data-theme="winter"] {
+  --primary: #36cfc9;
+  --secondary: #1890ff;
+  --accent: #d3f261;
+  --neutral: #f0f5f9;
+  --bg: #ffffff;
+}
+
+/* Dim Theme */
+[data-theme="dim"] {
+  --primary: #28313b;
+  --secondary: #2a3d3f;
+  --accent: #b7a6cb;
+  --neutral: #4f5d74;
+  --bg: #f3f4f6;
+}
+
+/* Nord Theme */
+[data-theme="nord"] {
+  --primary: #88c0d0;
+  --secondary: #5e81ac;
+  --accent: #81a1c1;
+  --neutral: #2e3440;
+  --bg: #3b4252;
+}
+
+/* Sunset Theme */
+[data-theme="sunset"] {
+  --primary: #ff5722;
+  --secondary: #f44336;
+  --accent: #e91e63;
+  --neutral: #9e9e9e;
+  --bg: #ffebee;
+}
